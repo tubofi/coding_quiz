@@ -1,0 +1,57 @@
+
+
+::5-1:: 为turtle方法选择正确的释义 {
+    =turtle.left() -> 左转
+    =turtle.back() -> 后退
+    =turtle.forward() -> 前进
+    =turtle.right() -> 右转
+}
+
+::5-2:: 为以下释义选择正确的方法 {
+    =设置画笔粗细 -> turtle.pensize()
+    =设置画笔颜色 -> turtle.color()
+    =抬笔 -> turtle.penup()
+    =落笔 -> turtle.pendown()
+    =开始填充 -> turtle.begin_fill()
+    =结束填充 -> turtle.end_fill()
+}
+
+::5-3:: turtle.circle(100) 和 turtle.dot(100) 哪个画出来的圆形更大一些？ {
+    =turtle.circle(100)
+    ~turtle.dot(100)
+    ~一样大
+    ~一样小
+}
+
+// import turtle 
+// turtle.left(90)
+// turtle.right(45)
+// turtle.setheading(60)
+::5-4:: 执行以下程序后，turtle面向的方向角度是 {
+    =60
+    ~90
+    ~45
+    ~150
+}
+
+::5-5:: 想要画出和 turtle.circle(120) 一样大的圆形，那么turtle.dot(____)空白处应该填多少{
+    =240
+    ~120
+    ~60
+    ~360
+}
+
+//5-5 //3-2
+
+//5-6 //3-3
+
+//5-7 //3-6
+
+
+
+
+
+
+
+
+

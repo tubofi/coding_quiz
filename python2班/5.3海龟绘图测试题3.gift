@@ -1,0 +1,117 @@
+
+::3-1:: 以下哪种方法可以让turtle移动到某个坐标位置 {
+    =turtle.goto()
+    ~turtle.forward()
+    ~turtle.left()
+    ~turtle.back()
+}
+
+
+// turtle.goto(40,0)
+// turtle.goto(40,50)
+// turtle.goto(0,50)
+// turtle.goto(0,0)
+::3-2:: 分析以下程序，turtle的移动轨迹是一个什么样的图形 {
+    =长方形
+    ~正方形
+    ~三角形
+    ~圆形
+}
+
+// turtle._____fill()
+// turtle.circle(100)
+// turtle._____fill()
+::3-3:: 要画一个填充的原型，请为以下程序空白处选择正确的内容 {
+    =begin, end
+    ~pen, pen
+    ~up, down
+    ~forward, back
+}
+
+// turtle.penup()
+// turtle.forward(100)
+// turtle.left(90)
+// turtle.forward(100)
+// turtle.left(90)
+// turtle.forward(100)
+// turtle.left(90)
+// turtle.forward(100)
+// turtle.left(90)
+::3-4:: 运行以下程序将会画出来的图形是____ {
+    =无
+    ~长方形
+    ~正方形
+    ~平行四边形
+}
+
+//移动到坐标
+::3-5:: 以下turtle方法中，哪一项和scratch积木的功能最接近 {
+    =turtle.goto()
+    ~turtle.forward()
+    ~turtle.back()
+    ~turtle.color()
+}
+
+
+//A(-100, 0)
+//B(100, 0)
+//A(100, 100)
+::3-6:: 已知ABC三个点的坐标，求D点的坐标 {
+    =(-100, 100)
+    ~(100, -100)
+    ~(0, 100)
+    ~(0, -100)
+}
+
+::3-7:: 命令turtle.circle(60, 360, 5)的功能是？ {
+    =绘制一个半径为60像素的圆内接正五边形
+    ~绘制一个半径为60像素的圆和一个五边形
+    ~绘制5个半径为60像素的圆
+    ~绘制一个半径为60像素的圆
+}
+
+
+::3-8:: 哪个选项是turtle绘图中角度坐标系的0度方向？ {
+    =画布正右方
+    ~画布正左方
+    ~画布正上方
+    ~画布正下方
+}
+
+
+::3-9:: 使用turtle.circle()画圆形时，从哪个点开始画起 {
+    =B
+    ~A
+    ~C
+    ~D
+}
+
+
+// import turtle 
+// turtle.color("green")
+// turtle.color("blue")
+// turtle.end_fill()
+// turtle.circle(100)
+// turtle.begin_fill()
+::3-10:: 运行以下程序，将会画出一个什么样的图形 {
+    =没有填充的蓝色圆形
+    ~有填充的蓝色圆形
+    ~没有填充的绿色圆形
+    ~有填充的绿色圆形
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

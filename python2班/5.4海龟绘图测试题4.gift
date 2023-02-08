@@ -1,0 +1,88 @@
+
+// import turtle as ____
+// xyz.forward(100)
+// xyz.back(100)
+// xyz.left(100)
+// xyz.right(100)
+::4-1:: 请为程序空白处选择合适内容，确保程序能够正常运行 {
+    =xyz
+    ~forward
+    ~turtle
+    ~left
+}
+
+// import turtle
+// turtle.forward(-60)
+// turtle.back(200)
+::4-2:: 计算turtle前进了多少步 {
+    =-260
+    ~-140
+    ~140
+    ~260
+}
+
+// import turtle
+// turtle.pensize(10)
+// turtle.color("green")
+// turtle.pensize(2)
+// turtle.color("red")
+::4-3:: 运行以下程序后，turtle画笔的颜色和粗细分别是什么 {
+    =红色，2
+    ~绿色，2
+    ~红色，10
+    ~绿色，10
+}
+
+//2-8
+//2-11
+
+// import turtle
+// turtle.____()
+// turtle.forward(100)
+// turtle.____()
+::4-6:: [多选题]请为程序空白处选择所有可以让turtle能够画出一条直线的选项 {
+    ~%50%pendown, penup
+    ~%-100%penup, penup
+    ~%50%pendown, pendown
+    ~%-100%penup, pendown
+}
+
+// import turtle
+// turtle.penup()
+// turtle.circle(100)
+// turtle.pendown()
+::4-7:: 以下程序将会画出一个怎样的图形 {
+    =无
+    ~一条直线
+    ~一个圆形
+    ~一个三角形
+}
+
+::4-8:: 下面选项中的哪个图形不可以使用turtle填充 {
+    =两条平行线
+    ~圆形
+    ~等边三角形
+    ~正方形
+}
+
+//3-3
+
+//3-6
+
+
+//11
+//输入一个正整数，输出这个正整数除以7的余数
+
+//12
+//输入一个整数，判断这个数字能否被3整除，如果能够整除输出“yes”,否则输出"no"
+
+
+
+
+
+
+
+
+
+
+
