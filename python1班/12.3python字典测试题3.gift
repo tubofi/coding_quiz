@@ -1,0 +1,26 @@
+
+
+::3-1:: 以下关于python字典描述错误的是 {
+    =字典中不能出现相同的key，也不能出现相同的value
+    ~字典用大括号表示
+    ~字典中的元素以key-value的形式成对出现，通过key来查询value
+    ~不同元素之间用逗号隔开
+}
+
+::3-2:: Question {
+    =Correct Answer
+    ~Incorrect Answer 1
+    ~Incorrect Answer 2
+    ~Incorrect Answer 3
+}
+
+
+
+
+
+
+
+
+
+
+
