@@ -1,0 +1,219 @@
+
+
+::8-1:: 为每个释义选择正确的关键字/保留字 {
+    =前进 -> forward
+    =左转 -> left
+    =右转 -> right
+    =后退 -> back
+}
+
+::8-2:: 海龟的当前坐标为(100, 100)，执行turtle.goto(200, 200)后的坐标是什么？ {
+    =(200, 200)
+    ~(100, 100)
+    ~(300, 300)
+    ~(0, 0)
+}
+
+::8-3:: 海龟的当前坐标为(100, 100)，执行turtle.setx(200)后的坐标是多少是什么？ {
+    =(200, 100)
+    ~(100, 200)
+    ~(200, 200)
+    ~(100, 100)
+}
+
+::8-4:: 海龟的当前坐标为(100, 100)，执行turtle.sety(300)后的坐标是多少是什么？ {
+    =(100, 300)
+    ~(300, 100)
+    ~(300, 300)
+    ~(100, 100)
+}
+
+::8-5:: turtle.setpos(x, y)的功能？ {
+    =设置海龟的坐标
+    ~设置海龟的颜色
+    ~让海龟回到初始位置
+    ~设置海龟面向的角度
+}
+
+// import turtle as t
+// t.setpos(150, 300)
+// t.sety(200)
+::8-6:: 执行以下程序后，求海龟的坐标 {
+    =(150, 200)
+    ~(150, 300)
+    ~(200, 300)
+    ~(200, 200)
+}
+
+// import turtle as t
+// t.goto(150, 300)
+// t.seth(180)
+// t.home()
+::8-7:: 运行以下程序后海龟的坐标和角度分别是什么 {
+    =坐标是(0, 0); 角度是0;
+    ~坐标是(150, 300); 角度是0;
+    ~坐标是(0, 0); 角度是180;
+    ~坐标是(150, 300); 角度是180;
+}
+
+::8-8:: 选择正确的方向 {
+    =turtle.left() -> 左转
+    =turtle.right() -> 右转
+    =turtle.up() -> 向上
+    =turtle.down() -> 向下
+}
+
+// import turtle
+// turtle.left(60)
+// turtle.right(45)
+// turtle.down()
+::8-9:: 运行程序后海龟面向的方向对应以下哪个角度？ {
+    =-90
+    ~60
+    ~45
+    ~105
+}
+
+::8-10:: 以下选项中哪个与turtle.seth(90)面向的方向不同 {
+    =turtle.down()
+    ~turtle.left(90)
+    ~turtle.up()
+    ~turtle.right(270)
+}
+
+// import turtle
+// turtle.forward(100)
+// turtle.left(90)
+// turtle.forward(200)
+// turtle.left(90)
+// turtle.forward(100)
+// turtle.left(90)
+// turtle.forward(200)
+// turtle.left(90)
+::8-11:: 运行以下程序将会画出来的图形是____ {
+    =长方形
+    ~三角形
+    ~正方形
+    ~圆形
+}
+
+// import turtle
+// turtle.penup()
+// turtle.forward(100)
+// turtle.left(90)
+// turtle.forward(100)
+// turtle.left(90)
+// turtle.forward(100)
+// turtle.left(90)
+// turtle.forward(100)
+// turtle.left(90)
+::8-12:: 运行以下程序将会画出来的图形是____ {
+    =无
+    ~长方形
+    ~正方形
+    ~平行四边形
+}
+
+// import turtle
+// turtle._____fill()
+// turtle.circle(100)
+// turtle._____fill()
+::8-13:: 要画一个填充的原型，请为以下程序空白处选择正确的内容 {
+    =begin, end
+    ~pen, pen
+    ~up, down
+    ~forward, back
+}
+
+::8-14:: turtle.speed()可以设置海龟的移动速度，括号里的数字范围是0-10，以下哪个选项设置的速度最快 {
+    =turtle.speed(0)
+    ~turtle.speed(10)
+    ~turtle.speed(1)
+    ~turtle.speed(-5)
+}
+
+::8-15:: turtle.shape()的作用是什么？ {
+    =改变海龟的造型
+    ~改变海龟的颜色
+    ~改变海龟的移动速度
+    ~改变动物的种类
+}
+
+// import turtle as t
+// t.pensize(10)
+// t.pensize(3)
+// t.circle(100)
+// t.pensize(5)
+::8-16:: 以下程序画出来的圆形的线条粗细是几？ {
+    =3
+    ~5
+    ~10
+    ~0
+}
+
+::8-17:: 关于海龟绘图的颜色，以下描述错误的是 {
+    =turtle.pencolor()改变笔的颜色后，填充的颜色也会随之改变
+    ~turtle.color()既可以改变笔的颜色，又可以改变填充的颜色
+    ~turtle.fillcolor()只改变填充的颜色
+    ~turtle.pencolor()只改变笔的颜色
+}
+
+// import turtle as t
+// t.color(“red”, “blue”)
+// t.begin_fill()
+// t.circle(100)
+// t.end_fill()
+::8-18:: 以下程序画出的圆形的边框和填充各是什么颜色？ {
+    =边框是红色(red)，填充为蓝色(blue)
+    ~边框是蓝色(blue)，填充为红色(red)
+    ~边框是红色(red)，填充为红色(red)
+    ~边框是蓝色(blue)，填充为蓝色(blue)
+}
+
+// import turtle as t
+// t.color(“red”)
+// t.begin_fill()
+// t.circle(100)
+// t.end_fill()
+::8-19:: 以下程序画出的圆形的边框和填充各是什么颜色？ {
+    =边框是红色(red)，填充为红色(red)
+    ~边框是红色(red)，填充没有颜色
+    ~边框没有颜色，填充为红色(red)
+    ~边框是黑色(black)，填充为红色(red)
+}
+
+// import turtle as t
+// t.home()
+// t.setpos(100, 200)
+// t.sety(150)
+::8-20:: 运行以下程序后的海龟坐标是什么？ {
+    =(100, 150)
+    ~(150, 200)
+    ~(100, 200)
+    ~(0, 0)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
