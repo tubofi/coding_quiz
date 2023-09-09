@@ -5,7 +5,6 @@
     ~scratch中的自制积木就是函数
 }
 
-
 ::1-2:: 自定义函数用哪个关键字 {
     =def
     ~del
@@ -53,9 +52,6 @@
     ~l
 }
 
-
-
-
 // def area(b):
 //     a = b ** 2
 //     return a
@@ -76,12 +72,10 @@
     ~d
 }
 
-
 // def add(a, b, c):
 //     return a+b+c
 // print(add(1, 2, 4))
 ::1-7:: 这段程序的运行结果为3 {FALSE}
-
 
 // def add(a, b, c):
 //     return a+b+c
