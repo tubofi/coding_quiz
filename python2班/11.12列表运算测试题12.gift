@@ -1,0 +1,90 @@
+
+
+
+::12-1:: 下面哪个语句可以用于获取列表中元素 "apple" 的索引位置？ {
+    =list.index("apple")
+    ~list.get_index("apple")
+    ~list.search("apple")
+    ~list.get("apple")
+}
+
+::12-2:: 如果一个列表中有多个相同的元素，下面哪个方法可以用于计算元素 "banana" 在列表中出现的次数？ {
+    =list.count("banana")
+    ~list.get_count("banana")
+    ~list.search_count("banana")
+    ~list.index("banana")
+}
+
+
+::12-3:: 对于列表 fruits \= ["apple", "banana", "orange", "banana", "kiwi"]，下面哪个表达式可以获取第一个出现的 "banana" 的索引位置？ {
+    =fruits.index("banana")
+    ~fruits.first_index("banana")
+    ~fruits.find_index("banana")
+    ~fruits[0].index("banana")
+}
+
+
+::12-4:: 下面哪个方法可以用于在列表中插入一个元素，使其成为第一个元素？ {
+    =list.insert(0, "element")
+    ~list.count("element")
+    ~list.index("element")
+    ~ist.append("element")
+}
+
+
+::12-5:: 如果想要从列表中删除第一个值为 "orange" 的元素，应该使用下面哪个方法？ {
+    =list.remove("orange")
+    ~list.delete("orange")
+    ~list.pop("orange")
+    ~list.count("orange")
+}
+
+// fruits = [
+//     ["banana", "orange", "kiwi"],
+//     ["apple", "grape", "melon"],
+//     ["cherry", "pear", "plum"]
+// ]
+::12-6:: 对于下面的二维列表，如何获取元素 "apple"？ {
+    =fruits[1][0]
+    ~fruits[0][1]
+    ~fruits.index("apple")
+    ~fruits.count("apple")
+}
+
+// pets = [
+//     ["dog", "fish", "hamster"],
+//     ["cat", "parrot", "rabbit"],
+//     ["turtle", "snake", "lizard"]
+// ]
+::12-7:: 对于下面的二维列表，如何获取元素 "rabbit"？ {
+    =pets[1][2]
+    ~pets[0][2]
+    ~pets[2][3]
+    ~Ipets[2][1]
+}
+
+::12-8:: 下面哪个方法可以用于在列表中插入一个元素，使其成为最后一个元素？ {
+    =fruits.append("element")
+    ~fruits.insert(0, "element")
+    ~fruits.index("element")
+    ~fruits.count("element")
+}
+
+//12-9
+// 找出列表中最后一个3的索引值并打印出来。
+// 提示：考虑首先将列表反转reverse，反转后的第一个3就是原始列表中的最后一个3
+
+
+// 创建一个包含字符串的二维列表，要求编写程序将其中一个特定的字符串替换为另一个字符串。
+// fruits = [
+//     ["apple", "banana", "orange"],
+//     ["grape", "sheep", "kiwi"],
+//     ["melon", "watermelon", "strawberry"]
+// ]
+
+// old_word = "apple"
+// new_word = "cherry"
+// replace_element(matrix, old_word, new_word)
+// print(matrix)
+
+//找出二维列表中的最大值
